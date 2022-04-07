@@ -1,0 +1,29 @@
+name: Github Action Pipeline
+
+on: push
+
+jobs:
+  rebase-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout current branch
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Rebase before merging?
+        uses: cyberark/enforce-rebase@v2
+        with:
+          default-branch: main
+  unit-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout current branch
+        uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+      - name: Install
+        run: yarn install
+      - name: Test
+        run: yarn test

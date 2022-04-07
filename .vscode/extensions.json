@@ -1,0 +1,25 @@
+{
+  "recommendations": [
+    "irongeek.vscode-env",
+    "cschleiden.vscode-github-actions",
+    "dannymidnight.vscode-buildkite",
+    "ms-azuretools.vscode-docker",
+    "gruntfuggly.todo-tree",
+    "pflannery.vscode-versionlens",
+    "cschlosser.doxdocgen",
+    "steoates.autoimport",
+    "aaron-bond.better-comments",
+    "coenraads.bracket-pair-colorizer-2",
+    "streetsidesoftware.code-spell-checker",
+    "dbaeumer.vscode-eslint",
+    "mhutchie.git-graph",
+    "eamodio.gitlens",
+    "wix.vscode-import-cost",
+    "andys8.jest-snippets",
+    "eg2.vscode-npm-script",
+    "christian-kohler.npm-intellisense",
+    "esbenp.prettier-vscode",
+    "natqe.reload",
+    "redhat.vscode-yaml"
+  ]
+}
