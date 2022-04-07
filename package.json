@@ -10,7 +10,7 @@
     "build": "rimraf dist && tsc -p tsconfig.json",
     "dev": "rimraf dist && env-cmd -f .env.local tsc-watch -p tsconfig.json --onSuccess \"node dist/app.js\"",
     "tdd": "env-cmd -f .env.test jest --coverage --forceExit --runInBand --detectOpenHandles --watch",
-    "test": "env-cmd -f .env.test jest --coverage --forceExit --runInBand --detectOpenHandles --no-caches",
+    "test": "env-cmd -f .env.test jest --coverage --forceExit --runInBand --detectOpenHandles --no-caches --passWithNoTests",
     "fmt": "yarn lint:fix \"./**/*.{ts,js}\" && yarn prettier:fix \"./**/*.{ts,js}\"",
     "lint:fix": "eslint --fix",
     "prettier:fix": "prettier --write --config .prettierrc.js",
