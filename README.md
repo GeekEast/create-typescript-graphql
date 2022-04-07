@@ -6,8 +6,6 @@
 | **start API Document Server** | `yarn doc`   |
 
 ### Links
-| Environment        | URL                        |
-| ------------------ | -------------------------- |
-| Local              | http://localhost:9901      |
-| Local Swagger      | http://localhost:9901/docs |
-| Local Swagger Json | http://localhost:9901/json |
+| Environment | URL                                  |
+| ----------- | ------------------------------------ |
+| Local       | http://localhost:9901/api/graphql/v1 |
