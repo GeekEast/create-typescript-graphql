@@ -1,7 +1,7 @@
 {
   "name": "project_name",
   "version": "1.0.0",
-  "main": "dist/index.js",
+  "main": "dist/app.js",
   "license": "MIT",
   "engines": {
     "node": ">=14.17.0"
@@ -15,6 +15,7 @@
     "lint:fix": "eslint --fix",
     "prettier:fix": "prettier --write --config .prettierrc.js",
     "test:clean": "jest --clearCache",
+    "test:config": "jest --showConfig",
     "prepare": "husky install"
   },
   "dependencies": {
